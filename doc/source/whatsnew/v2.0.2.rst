@@ -13,7 +13,8 @@ including other versions of pandas.
 
 Fixed regressions
 ~~~~~~~~~~~~~~~~~
--
+- Fixed regression when :meth:`DataFrame.to_string` creates extra space for string dtypes (:issue:`52690`)
+
 
 .. ---------------------------------------------------------------------------
 .. _whatsnew_202.bug_fixes:
